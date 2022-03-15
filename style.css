@@ -27,8 +27,6 @@ li{
     justify-content: space-between;
     align-items: center;
     padding-top: 90px;
-
-
 }
 .header .nav-bar .logo{
     margin-left: 50px;
@@ -102,7 +100,54 @@ span{
 h2{
     color: white;
 }
+h2{
+    position: absolute;
+    left: 8%;
+    font-size: 400%;
+}
 p{
+    color: rgba(253, 253, 253, 0.885);
+    position: absolute;
+    top: 79%;
+    left: 8%;
+    font-weight: 1000;
+}
+button a{
+    position: absolute;
+    top: 64%;
+    left: 20%;
+    padding: 15px;
     color: #fff;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 200%;
+}
+p1 a{
+    font-size: 150%;
+    color:rgb(214, 149, 149);
+    position: fixed;
+    top: 670px;
+    right: 228px;
+    font-weight: 700;
+    text-decoration: none;
+} 
+
+p2 a{
+    font-size: 150%;
+    color:rgb(214, 149, 149);
+    position: fixed;
+    top: 670px;
+    right: 240px;
+    font-weight: 700;
+    text-decoration: none;
+}
+p3 a{
+    font-size: 150%;
+    color:rgb(214, 149, 149);
+    position: fixed;
+    top: 710px;
+    right: 280px;
+    font-weight: 700;
+    text-decoration: none;
 }
 

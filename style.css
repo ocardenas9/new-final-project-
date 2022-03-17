@@ -102,58 +102,69 @@ h2{
 }
 h2{
     position: absolute;
-    left: 8%;
-    top: 30%;
+    left: 4%;
+    top: 32%;
     font-size: 400%;
 }
 p{
     color: rgba(253, 253, 253, 0.885);
     position: absolute;
-    top: 85%;
-    left: 8%;
+    top: 20%;
+    left: 50%;
     font-weight: 1000;
+    font-size: 26PX;
+    text-transform: capitalize;
 }
-button a{
-    position: absolute;
-    top: 60%;
-    left: 20%;
-    padding: 15px;
-    color: #fff;
+button{
+    position:absolute;
+    top: 95%;
+    left: 80%;
+    color:#fff;
     font-weight: 500;
     font-style: italic;
     font-size: 200%;
+    background:#4f0505   
 }
-p1 a{
-    font-size: 150%;
-    color:rgb(214, 149, 149);
-    position:fixed;
-    top: 670px;
-    right: 220px;
-    font-weight: 700;
-    text-decoration: none;
-} 
-
-p2 a{
-    font-size: 150%;
-    color:rgb(214, 149, 149);
-    position: fixed;
-    top: 670px;
-    right: 240px;
-    font-weight: 700;
-    text-decoration: none;
-}
-p3 a{
-    font-size: 150%;
-    color:rgb(214, 149, 149);
-    position: fixed;
-    top: 710px;
-    right: 280px;
-    font-weight: 700;
-    text-decoration: none;
-}
-
 .header .nav-bar .logo a {
     font-size: 17px;
     font-weight: 500px;
     transition: 1s;
+}
+iframe{
+    position:absolute;
+    left: 135px;
+    bottom: 200px;
+    border-radius: 5%;
+}
+.carousel-caption{
+    font-size: 150%;
+    color:rgb(214, 149, 149);
+    position: relative;
+    left: 0px;
+    font-weight: 700;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color:blue;
+    font-style: italic;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: blue;
+    position: relative;
+    left: 3%
+}
+
+.carousel-dark .carousel-control-prev-icon {
+    position: absolute;
+    right: 70%;
+    bottom: 78%;
+}
+.carousel-dark .carousel-control-next-icon {
+    position: absolute;
+    left: 105%;
+    bottom:78%;
+}
+button:hover{
+    color:#fff;
 }

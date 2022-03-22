@@ -37,7 +37,7 @@ li{
     text-transform: uppercase;
 }
 .header .nav-bar .menu ul li{
-    margin: 30px;
+    margin: 60px;
 }
 .header .nav-bar .menu ul li a{
     font-size: 12px;
@@ -51,17 +51,20 @@ li{
     opacity: 2;
     transition: .6s;
 }
-.header .nav-bar .social-media li i{
+.social-media li i{
     width:45px;
     height: 45px;
     line-height: 45px;
-    margin-right: 5px;
+    margin-right: 20px;
     border-radius: 50px;
     text-align: center;
     align-items: center;
-    font-size: 19px;
+    font-size: 29px;
     background-color: #cac5c542;
     transition: all 0.5s ease-in-out;
+    position: relative;
+    left: 90px;
+    bottom: 100px;
 }
 .header .nav-bar .social-media li i:hover{
     background-color: rgb(110, 69, 69);}
@@ -133,7 +136,7 @@ button{
 iframe{
     position:absolute;
     left: 120px;
-    bottom: 170px;
+    bottom: 150px;
     border-radius: 5%;
 }
 .carousel-caption{
@@ -162,9 +165,18 @@ a{
 }
 .carousel-dark .carousel-control-next-icon {
     position: absolute;
-    left: 105%;
+    left: 250%;
     bottom:78%;
 }
 button:hover{
     color:#fff;
+}
+
+footer {
+    display: block;
+    color: white;
+    position: relative;
+    bottom: 110px;
+    left:120px;
+    font-size: 30px;
 }

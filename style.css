@@ -120,13 +120,13 @@ p{
 }
 button{
     position:absolute;
-    top: 102%;
-    left: 58%;
+    top: 105%;
+    left: 60%;
     color:#fff;
-    font-weight: 500;
+    font-weight: 400;
     font-style: italic;
-    font-size: 200%;
-    background:#4f0505   
+    font-size: 150%;
+    background:#4f0505;  
 }
 .header .nav-bar .logo a {
     font-size: 17px;

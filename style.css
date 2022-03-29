@@ -106,12 +106,15 @@ span{
 }
 h2{
     color: white;
+    font-style: italic;
 }
 h2{
     position: absolute;
     left: 4%;
     top: 32%;
     font-size: 400%;
+    font-style: italic;
+    color: white;
 }
 p{
     color: rgba(253, 253, 253, 0.885);
@@ -148,7 +151,7 @@ iframe{
     font-size: 150%;
     color:rgb(214, 149, 149);
     position: relative;
-    left: 0px;
+    left: 1px;
     font-weight: 700;
     text-decoration: none;
 }
@@ -160,7 +163,7 @@ a{
 .carousel-dark .carousel-indicators [data-bs-target] {
     background-color: blue;
     position: relative;
-    left: 3%
+    left: 3%;
 }
 
 .carousel-dark .carousel-control-prev-icon {
